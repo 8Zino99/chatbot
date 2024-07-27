@@ -1,7 +1,7 @@
 local HttpService = game:GetService("HttpService")
 
 -- GUI Elemente
-local mainFrame = script.Parent:WaitForChild("MainFrame")
+local mainFrame = script.Parent
 local codeInputBox = mainFrame:WaitForChild("CodeInputBox")
 local executeButton = mainFrame:WaitForChild("ExecuteButton")
 local outputLabel = mainFrame:WaitForChild("OutputLabel")
